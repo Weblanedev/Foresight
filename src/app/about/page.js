@@ -5,7 +5,7 @@ const page = () => {
     return (
         <div className="pt-[150px] flex flex-col gap-y-[100px]">   
             <Services />
-            {/* <Features /> */}
+            <Features />
         </div>
     )
 }

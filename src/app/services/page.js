@@ -9,7 +9,7 @@ const Plan = ({ title }) => {
 
   return (
     <div className="flex items-center gap-2">
-      <CheckCircleIcon className="text-orange-600 text-xl" />
+      <CheckCircleIcon className="text-blue-600 text-xl" />
       <span>{title}</span>
     </div>
   );
@@ -55,11 +55,11 @@ const PricingCard = ({ name, title, price, image, btnText, trail, titleOne, titl
         <Link href="/billing">
           <p
             onClick={() => { purchase(name, price) }}
-            className="w-fit capitalize text-base hover:bg-orange-600 hover:shadow-md hover:shadow-orange-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-orange-600 hover:border-orange-600 hover:text-white rounded-full">
+            className="w-fit capitalize text-base hover:bg-blue-600 hover:shadow-md hover:shadow-blue-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-blue-600 hover:border-blue-600 hover:text-white rounded-full">
             {btnText}
           </p>
         </Link>
-        <span className="block text-orange-600 mt-5 font-semibold animate-bounce cursor-pointer">
+        <span className="block text-blue-600 mt-5 font-semibold animate-bounce cursor-pointer">
           {trail}
         </span>
       </div>
@@ -76,10 +76,10 @@ const page = () => {
       </div>
       <div className="grid grid-cols-3 gap-[40px]">
         <PricingCard
-          name="Daily Rentals"
-          title="Short-term rentals for daily use, perfect for running errands or exploring the city."
-          price="75"
-          image="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          name="Vehicle Assembly"
+          title="Precision assembly of various motor vehicles, ensuring top-notch quality and performance."
+          price="7500"
+          image="https://images.pexels.com/photos/4022545/pexels-photo-4022545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
           titleTwo="Dining tables and chairs"
@@ -88,10 +88,10 @@ const page = () => {
 
         />
         <PricingCard
-          name="Weekly Rentals"
-          title="Short-term rentals for weekly use, perfect for running errands or exploring the city."
+          name="Customized Vehicle Solutions"
+          title="Providing tailored vehicle solutions to meet specific client needs, including specialized modifications."
           price="500"
-          image="https://images.pexels.com/photos/18867032/pexels-photo-18867032/free-photo-of-traffic-on-a-crowded-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          image="https://images.pexels.com/photos/3874329/pexels-photo-3874329.jpeg?auto=compress&cs=tinysrgb&w=600"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
           titleTwo="Dining tables and chairs"
@@ -133,7 +133,28 @@ const page = () => {
           titleTwo="Dining tables and chairs"
           titleThree="Beds and mattresses"
           titleFour="Cabinets and storage solutions"
-
+        />
+        <PricingCard
+          name="Consultation Services"
+          title="Managing and maintaining vehicle fleets for businesses, including regular servicing and logistical support."
+          price="600"
+          image="https://images.pexels.com/photos/5864152/pexels-photo-5864152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          btnText="Purchase"
+          titleOne="Sofas, couches, and sectionals"
+          titleTwo="Dining tables and chairs"
+          titleThree="Beds and mattresses"
+          titleFour="Cabinets and storage solutions"
+        />
+        <PricingCard
+          name="After-Sales Support"
+          title="Offering maintenance, repair services, and parts replacement to ensure long-term vehicle performance."
+          price="2300"
+          image="https://images.pexels.com/photos/6044781/pexels-photo-6044781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          btnText="Purchase"
+          titleOne="Sofas, couches, and sectionals"
+          titleTwo="Dining tables and chairs"
+          titleThree="Beds and mattresses"
+          titleFour="Cabinets and storage solutions"
         />
       </div>
     </div>

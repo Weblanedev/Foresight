@@ -13,7 +13,7 @@ const Plan = ({ title }) => {
   
   return (
     <div className="flex items-center gap-2">
-      <CheckCircleIcon className="text-orange-600 text-xl" />
+      <CheckCircleIcon className="text-blue-600 text-xl" />
       <span>{title}</span>
     </div>
   );
@@ -63,7 +63,7 @@ const PricingCard = ({ name, title, price, image, btnText, trail, titleOne, titl
             {btnText}
           </p>
         </Link>
-        <span className="block text-orange-600 mt-5 font-semibold animate-bounce cursor-pointer">
+        <span className="block text-blue-600 mt-5 font-semibold animate-bounce cursor-pointer">
           {trail}
         </span>
       </div>
@@ -91,7 +91,7 @@ const Pricing = () => {
         <button
           onClick={() => setPlan("Products")}
           className={`
-          ${plan === "Products" ? "text-white" : "text-orange-600"}
+          ${plan === "Products" ? "text-white" : "text-blue-600"}
           z-[1] capitalize text-base hover:border-2 border-2 border-transparent py-3 px-5  rounded-full`}
         >
           Products
@@ -99,7 +99,7 @@ const Pricing = () => {
         <button
           onClick={() => setPlan("Services")}
           className={`
-          ${plan === "Services" ? "text-white" : "text-orange-600"}
+          ${plan === "Services" ? "text-white" : "text-blue-600"}
           z-[1] capitalize text-base hover:border-2 border-2 border-transparent py-3 px-5  rounded-full`}
         >
           Services

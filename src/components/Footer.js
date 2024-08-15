@@ -9,9 +9,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <p className="max-w-xs mt-4 text-sm">
-            At QWICQ-TRANZACT SERVICES LTD, we're committed to making your car rental or purchase experience seamless and enjoyable.
+              At Foresight, Our commitment to quality and innovation ensures that every vehicle we offer is built to last,
+              combining cutting-edge technology with unmatched reliability.
             </p>
-        
+
           </div>
 
           <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4">
@@ -25,10 +26,10 @@ const Footer = () => {
                   About
                 </Link>
                 <Link
-                  href="/products"
+                  href="/cars"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Product
+                  cars
                 </Link>
                 <Link
                   href="/services"
@@ -38,7 +39,7 @@ const Footer = () => {
                 </Link>
               </nav>
             </div>
-     
+
             <div>
               <p className="font-medium">Helpful Links</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm ">
@@ -52,7 +53,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs">© 2021 QQWICQ-TRANZACT SERVICES LTD- All rights reserved</p>
+        <p className="mt-8 text-sm">© Foresight - All rights reserved</p>
       </div>
     </footer>
   );

@@ -9,7 +9,7 @@ const Plan = ({ title }) => {
 
     return (
         <div className="flex items-center gap-2">
-            <CheckCircleIcon className="text-orange-600 text-xl" />
+            <CheckCircleIcon className="text-blue-600 text-xl" />
             <span>{title}</span>
         </div>
     );
@@ -55,11 +55,11 @@ const PricingCard = ({ name, title, price, image, btnText, trail, titleOne, titl
                 <Link href="/billing">
                     <p
                         onClick={() => { purchase(name, price) }}
-                        className="w-fit capitalize text-base hover:bg-orange-600 hover:shadow-md hover:shadow-orange-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-orange-600 hover:border-orange-600 hover:text-white rounded-full">
+                        className="w-fit capitalize text-base hover:bg-blue-600 hover:shadow-md hover:shadow-blue-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-blue-600 hover:border-blue-600 hover:text-white rounded-full">
                         {btnText}
                     </p>
                 </Link>
-                <span className="block text-orange-600 mt-5 font-semibold animate-bounce cursor-pointer">
+                <span className="block text-blue-600 mt-5 font-semibold animate-bounce cursor-pointer">
                     {trail}
                 </span>
             </div>
@@ -70,8 +70,8 @@ const PricingCard = ({ name, title, price, image, btnText, trail, titleOne, titl
 const page = () => {
     return (
         <div className="pt-[150px] flex flex-col gap-y-[100px] container mx-auto">
-            <div>   <span className="service-name text-center">Our Products</span>
-                <h2 className="title text-center">Purchase any of our numerous vehicles</h2>
+            <div>   <span className="service-name text-center">Our Cars</span>
+                <h2 className="title text-center">Make your choice from any of our numerous vehicles</h2>
             </div>
             <div className="grid grid-cols-3 gap-[50px]">
                 <PricingCard

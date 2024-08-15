@@ -28,7 +28,7 @@ const Services = () => {
       <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
         <div className="relative w-full flex-1">
           <Image
-            src="https://images.pexels.com/photos/753876/pexels-photo-753876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/27639803/pexels-photo-27639803/free-photo-of-white-toyota-sports-car-parked-in-a-rooftop-parking-lot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             width={500}
             height={500}
             alt="video banner"
@@ -38,15 +38,18 @@ const Services = () => {
         <div className="flex gap-5 md:gap-10 flex-col flex-1">
           <div className="flex flex-col gap-4">
             <span className="service-name text-center lg:text-left">
-           
+
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-center lg:text-left">
-            About QWICQ-TRANZACT Services LTD
+              Our Story
             </h2>
           </div>
           <p className="leading-loose">
-          Welcome to QWICQ-TRANZACT Services LTD, your one-stop destination for all your car needs. Whether you're looking to rent a vehicle for a weekend getaway or purchase your dream car, we've got you covered. Explore our wide range of rental options or browse through our inventory of quality pre-owned vehicles for sale. With competitive prices and exceptional service, we're committed to making your car rental or purchase experience seamless and enjoyable.
+          At Foresight, we specialize in assembling, manufacturing, importing, exporting, supplying, and dealing in a comprehensive range of motor vehicles. From cars and lorries to buses, vans, and motorcycles, we are dedicated to delivering top-notch vehicles that meet your every need.
+
+Our commitment to quality and innovation ensures that every vehicle we offer is built to last, combining cutting-edge technology with unmatched reliability.
           </p>
+          <p className="leading-loose">Foresight is not just a business; it's a commitment to excellence. Our global reach, extensive range, and customer-centric approach make us the ideal choice for all your automotive needs. Whether you're looking for a reliable car, a durable lorry, or a versatile van, we have you covered.</p>
         </div>
       </div>
     </section>
